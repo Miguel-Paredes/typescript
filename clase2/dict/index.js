@@ -38,3 +38,8 @@ const promise = () => __awaiter(void 0, void 0, void 0, function* () {
 const hola = promise().then((r) => {
     console.log(r);
 });
+// Compuestos
+const myNewObjetc = {
+    age: 20,
+    name: 'Miguel'
+};
